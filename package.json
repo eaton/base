@@ -1,0 +1,30 @@
+{
+  "name": "@eatonfyi/base",
+  "version": "0.1.0",
+  "description": "Common config for eatonfyi node/TS projects",
+  "engines": {
+    "node": "^20.10.0"
+  },
+  "files": [
+    "dist/**/*",
+    "CHANGELOG.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eaton/base"
+  },
+  "devDependencies": {
+    "@ava/typescript": "^3.0.1",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "ava": "^6.1.2",
+    "eslint": "^8.57.0",
+    "eslint-plugin-ava": "^14.0.0",
+    "nyc": "^15.1.0",
+    "prettier": "^2.8.1",
+    "shx": "^0.3.3",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.25.12",
+    "typescript": "^5.4.2"
+  }
+}
