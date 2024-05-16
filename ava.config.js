@@ -1,13 +1,7 @@
 export default {
-  "files": [
-    "tests/**/*",
-    "!tests/**/fixtures/**/*",
-    "!tests/**/*.md"
-  ],
-  "extensions": {
-    "ts": "module"
+  files: ['test/**/*', '!test/**/fixtures/**/*', '!test/**/*.md'],
+  extensions: {
+    ts: 'module',
   },
-  "nodeArguments": [
-    "--loader=ts-node/esm"
-  ]
+  nodeArguments: ['--import=tsimp'],
 };

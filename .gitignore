@@ -64,8 +64,5 @@ typings/
 package-lock.json
 
 # Build output, crawl data, instance-specific config files
-storage
-output
 dist
-site
-/spidergram.config.*
+.tsimp
