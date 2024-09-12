@@ -1,6 +1,6 @@
 {
   "name": "@eatonfyi/base",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Common config for eatonfyi node/typescript projects",
   "engines": {
     "node": "^22.5.1"
@@ -28,8 +28,7 @@
     "format": "prettier --config prettier.config.js 'src/**/*.ts' --write",
     "lint": "eslint .",
     "lint-and-fix": "eslint . --fix",
-    "test": "ava",
-    "prepare": "husky"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -37,17 +36,16 @@
   },
   "devDependencies": {
     "@eslint/js": "^8.57.0",
-    "@types/node": "^20.12.12",
+    "@types/node": "^22.5.4",
     "ava": "^6.1.2",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^8.10.0",
-    "husky": "^9.0.11",
     "pkgroll": "^2.4.1",
     "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.4",
-    "shx": "^0.3.3",
+    "shx": "^0.3.4",
     "tsimp": "^2.0.11",
-    "typescript": "^5.5.4",
+    "typescript": "^5.6.2",
     "typescript-eslint": "^7.17.0"
   }
 }
