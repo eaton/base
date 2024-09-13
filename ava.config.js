@@ -1,7 +1,9 @@
 export default {
   files: ['test/**/*', '!test/**/fixtures/**/*', '!test/**/*.md'],
-  extensions: {
-    ts: 'module',
+  typescript: {
+    rewritePaths: {
+      'src/': 'dist/',
+    },
+    compile: false,
   },
-  nodeArguments: ['--import=tsimp'],
 };

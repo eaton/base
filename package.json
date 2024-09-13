@@ -25,6 +25,7 @@
   "scripts": {
     "run": "tsx src/index.ts",
     "build": "shx rm -rf dist; pkgroll --minify",
+    "docs": "typedoc ./src/index.ts",
     "format": "prettier --config prettier.config.js 'src/**/*' --write",
     "lint": "eslint src/**/*",
     "lint-and-fix": "eslint src/**/* --fix",
@@ -48,6 +49,7 @@
     "prettier-plugin-organize-imports": "^3.2.4",
     "shx": "^0.3.4",
     "tsx": "^4.19.1",
+    "typedoc": "^0.26.7",
     "typescript": "^5.6.2",
     "typescript-eslint": "^8.5.0"
   }
